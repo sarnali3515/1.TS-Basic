@@ -1,5 +1,5 @@
 {
-    // Type Guards
+    // Type Guards / Type Narrowing
 
     //typeof --> type guard
 
