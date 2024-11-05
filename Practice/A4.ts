@@ -16,7 +16,15 @@
 
     */
 
+    function reverseArray<T>(arr: T[]): T[] {
+        let reversedArray: T[] = [];
+        for (let i: number = arr.length - 1; i >= 0; i--) {
+            reversedArray.push(arr[i]);
+        }
+        return reversedArray;
+    }
 
-
+    console.log(reverseArray(["apple", "banana", "cherry"]));
+    console.log(reverseArray([10, 20, 30]));
 
 }
